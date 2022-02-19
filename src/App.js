@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import logo from './common/logo.png';
+import shoppingCart from './common/shopping-cart.svg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header d-flex justify-content-between">
+        <div className="headerLeft d-flex align-items-center">
+          <div>
+            <img src={logo} />
+          </div>
+          <div>
+            <b>REACT PIZZA</b>
+            <p>самая вкусная пицца во вселенной</p>
+          </div>
+        </div>
+        <div>
+          <div className="headerRight d-flex justify-content-around align-items-center">
+            <span>502 $</span>
+            <div></div>
+            <span className="shoppingCart">
+              <img src={shoppingCart} width="16px" height="16px" />
+              <span> 3</span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="line"></div>
     </div>
   );
 }

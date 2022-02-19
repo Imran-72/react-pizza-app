@@ -1,0 +1,70 @@
+body {
+  background-color: orange;
+}
+.App {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 1240px;
+  height: 1409px;
+  margin: 43px auto;
+}
+.header {
+  padding: 52px 38px 0 38px;
+}
+.headerLeft {
+  div {
+    img {
+      margin-right: 17px;
+    }
+  }
+  div {
+    b {
+      width: 154px;
+      height: 29px;
+    }
+    p {
+      margin: 0;
+      width: 261px;
+      height: 25px;
+      color: #7b7b7b;
+    }
+  }
+}
+
+.headerRight {
+  background-color: #fe5f1e;
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  padding: 0 5px 10px 15px;
+
+  span {
+    width: 43px;
+    height: 19px;
+    color: #ffffff;
+  }
+  div {
+    width: 1px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.25);
+  }
+  .shoppingCart {
+    img {
+    }
+    span {
+      width: 10px;
+      height: 16px;
+      color: #ffffff;
+    }
+  }
+}
+
+.line {
+  width: 1210px;
+  height: 1px;
+  background-color: #f6f6f6;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  margin: 20px auto;
+}
